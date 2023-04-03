@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- titled(text shown in the title of the tab) and favicon(logo shown in the title of the tab) -->
+  <head>
+    <title>My page</title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.2lITMKYTAU9Oakmi9SyO4AHaG5?pid=ImgDet&rs=1">
+  </head>
+
+<body>
+  <h1>First Heading</h1>
+  <h2>second heading</h2>
+  <h3>third heading</h3>
+
+  <pre>
+    this is a test para,
+    <hr>
+    this is a new line
+    <hr>
+    another line
+    <hr>
+    yet another line
+    <hr>
+    and another line
+  </pre>
+
+  <pre>
+  <b>this is a text</b>
+  
+  <strong>this is so strong</strong>
+  
+  <em>Emphasized</em>
+    
+  <i>Italic</i>
+
+    mark this <mark>this is an imp info</mark>
+
+    Don't do this: <del>do it</del>
+
+    <ins>inserted</ins>
+
+    <small>this is quite small</small>
+
+    O<sub>2</sub>
+
+    7<sup>3</sup>
+  
+
+    <!-- the code below displays a heading -->
+    <h1 style="color:blue; background-color:red;">THis is my heading</h1>
+
+    <!--
+    <p>a text</p>
+    -->
+
+    <!-- below use of target is to open the given link in a new tab -->
+    
+    <a href="https://www.google.com/" target="blank">Go to site</a>
+
+    <!--
+    <a href="mailto:itspritamchakraborty@gmail.com" send me an email</a>
+    -->
+
+      <!--TABLES-->
+      <table>
+        <tr>   <!-- table rows -->
+          <th>Name</th>     <!-- table heading-->
+          <th>Age</th>
+          <th>Class</th>
+          
+        </tr>
+        
+        <tr> 
+          <td>Tomi</td>    <!-- Table data -->
+          <td>19</td>
+          <td>Year 12</td>
+
+         </tr>
+        <tr>
+          <td>John</td>
+          <td>30</td>
+          <td>Year 15</td>
+          
+        </tr>
+      
+      </table>
+
+    <!--  LISTS -->
+    <ul>      <!-- Unordered list -->
+      <li>Name 1</li>
+      <li>Name 2</li>
+      <li>name 3</li>
+    </ul>
+
+    <ol>      <!-- ordered list -->
+      <li>Name 1</li>
+      <li>Name 2</li>
+      <li>name 3</li>
+    </ol>
+
+    <dl>      <!-- description list -->
+      <dt>Name 1</dt>
+      <dd>*this is the first name</dd>
+      <dt>Name 2</dt>
+      <dd>*this is the second name</dd>
+    </dl>
+
+    <!-- BLOCK(always starts on a new line & the browser automatically adds some space before & after the element ) & ININE Elements(doesn't start on a new line  & takes space as much as it needs) -->
+    <div style="color:green; background-color:yellow;">
+      <h1>First div</h1>
+      <p>this is a text <b>bold one</b></p>
+    </div>
+
+    <div style="color:white; background-color:black;">
+      <h2>another one</h2>
+      <b>Hi</b>
+    </div>
+
+
+    <!-- IFRAMES(webpage inside another webpage) -->
+    <iframe src="https://www.google.com/" height="300" width="300" style="border: none;"></iframe>
+
+    <!-- SYMBOLS -->
+    <p>this is copyright sign &#169;</p>
+    <p>this is spade sign &#9824;</p>
+    <p>this is trademark  sign &#8482;</p>
+
+
+    <!-- HTML Forms -->
+    <form action="form.html" method="get">              <!-- methods lke GET(keywords will not be shown in the title of the tab) and POST(keywords will be shown in the title of the tab) are used -->   
+      <label for="username">tomi</label>
+      <input type="checkbox" name="username" id="username" value="tomi">
+
+      <label for="username2">tim</label>
+      <input type="checkbox" name="username2" id="username" value="tim">
+
+      <label for="username">tomi</label>
+      <input type="radio" name="username" id="username" value="tomi">
+
+      <label for="username2">tim</label>
+      <input type="radio" name="username2" id="username" value="tim">
+
+      
+      <input type="submit"  value="send">
+      <!-- <form action="example.html" > (this attribute sends the data of the user's choice to the specified file)
+      
+    </form>
+
+    
+    
+      
+      
+    
+  
+  
+  </pre>
+  
+ 
+</body>
+
+</html>
